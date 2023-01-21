@@ -29,6 +29,7 @@ void Melee20ButtonCustom::UpdateDigitalOutputs(InputState &inputs, OutputState &
     outputs.buttonR = inputs.z;
     outputs.triggerLDigital = !inputs.lightshield && !inputs.nunchuk_c && inputs.l;
 
+
     outputs.triggerRDigital = inputs.b;
     outputs.start = inputs.start;
 
